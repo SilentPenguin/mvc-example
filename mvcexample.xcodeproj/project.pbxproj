@@ -11,7 +11,7 @@
 		A8967A9818FC3AE600827CBA /* settings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = settings.py; sourceTree = "<group>"; };
 		A8967A9918FC3B1C00827CBA /* routes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = routes.py; sourceTree = "<group>"; };
 		A8967A9A18FC3C4300827CBA /* helloworld.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = helloworld.py; sourceTree = "<group>"; };
-		A8967A9E18FC3E7300827CBA /* index.pyhtml */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.pyhtml; sourceTree = "<group>"; };
+		A8B7085E18FFFA18007FF3A1 /* index.pyhtml */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.pyhtml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -29,9 +29,17 @@
 		A8967A9D18FC3E5700827CBA /* views */ = {
 			isa = PBXGroup;
 			children = (
-				A8967A9E18FC3E7300827CBA /* index.pyhtml */,
+				A8B7085D18FFFA18007FF3A1 /* helloworld */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		A8B7085D18FFFA18007FF3A1 /* helloworld */ = {
+			isa = PBXGroup;
+			children = (
+				A8B7085E18FFFA18007FF3A1 /* index.pyhtml */,
+			);
+			path = helloworld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +194,7 @@
 				A8967A9618FC397A00827CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
