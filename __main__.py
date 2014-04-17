@@ -1,7 +1,10 @@
 import sys
 sys.path.append('/Users/seppy/Documents')
 
-from mvc.wsgi.interface import Interface
 import settings
+from mvc.wsgi.interface import Interface, TestServer
 
-interface = Interface(settings)
+interface = Interface()
+
+if __name__ == '__main__':
+    server = TestServer(interface)

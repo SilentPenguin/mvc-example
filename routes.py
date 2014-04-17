@@ -1,7 +1,5 @@
-from mvc.routing.route import Route
+from mvc.routing.route import route_map, Route
 from helloworld import HelloWorld
 
-route_table = Route()
-
-route_table += Route('', HelloWorld.index)
-route_table += Route('/hello/world' HelloWorld.index)
+route_map += Route('/', HelloWorld.index)
+route_map += Route('/hello/world', HelloWorld.index)

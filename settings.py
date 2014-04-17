@@ -1,3 +1,4 @@
+from mvc.routing.route import route_map
 import routes
 
-BASE_ROUTE = routes.route_table
+BASE_ROUTE = route_map
