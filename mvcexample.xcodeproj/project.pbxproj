@@ -8,7 +8,6 @@
 
 /* Begin PBXFileReference section */
 		A8967A9718FC39EB00827CBA /* __main__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __main__.py; sourceTree = "<group>"; };
-		A8967A9818FC3AE600827CBA /* settings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = settings.py; sourceTree = "<group>"; };
 		A8967A9918FC3B1C00827CBA /* routes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = routes.py; sourceTree = "<group>"; };
 		A8967A9A18FC3C4300827CBA /* helloworld.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = helloworld.py; sourceTree = "<group>"; };
 		A8B7085E18FFFA18007FF3A1 /* index.pyhtml */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.pyhtml; sourceTree = "<group>"; };
@@ -20,7 +19,6 @@
 			children = (
 				A8967A9A18FC3C4300827CBA /* helloworld.py */,
 				A8967A9918FC3B1C00827CBA /* routes.py */,
-				A8967A9818FC3AE600827CBA /* settings.py */,
 				A8967A9718FC39EB00827CBA /* __main__.py */,
 				A8967A9D18FC3E5700827CBA /* views */,
 			);
