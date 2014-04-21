@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Hello World
+    <body>
+        <p> What is your name?
+        <form method='post'>
+            <input type='text' name='name' value='
+            model.name.value
+            '>
+
+            if not model.name.valid:
+                <span>
+                    Please only use letters, numbers and spaces.
+            <br>
+            <input type="submit" value="Submit">

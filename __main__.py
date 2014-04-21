@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Users/seppy/Documents')
+sys.path.append('/Users/seppy/Documents') #where I store mvc for development
 
 import routes
 from mvc.application.application import Application

@@ -1,7 +1,11 @@
+from helloworld import UserModel
+assert type(model) is UserModel
+
 <!DOCTYPE html>
 <html>
     <head>
         <title> Hello World
     <body>
-        <p>
-            Hello World!
+        <p> Hello
+            model.name.value
+            !
